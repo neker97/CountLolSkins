@@ -29,6 +29,10 @@ public class ContaSkinLol {
           ArrayList<String>  femmine = new ArrayList<>();
           int maschiCount = 0,femmineCount=0;
            String champ = "";
+         //lista champ che potrebbero essere ignorati: "aatrox","alistar","amumu","bard","blitzcrank","cho%27gath","fiddlesticks","fizz","galio","gnar","hecarim"
+           //"ivern","kennen","kha%27zix","kled","malphite","maokai","nocturne","ornn","rammus","rek%27sai","renekton","rengar","rumble","shaco"
+           //,"skarner","tahm_kench","teemo","trundle","twitch","veigar","vel%27koz","volibear","warwick","wukong""zac","ziggs","xerath"
+           //"anivia","cassiopeia","kindred","lillia",,"lulu","neeko","orianna","poppy","tristana","yuumi"
           maschi = new ArrayList<String> 
                 (Arrays.asList("aatrox","alistar","amumu","aphelios","aurelion_sol","azir","bard","blitzcrank","brand","braum","dr._mundo","draven"
                         ,"ekko","ezreal","corki","darius","cho%27gath","fiddlesticks","fizz","galio","gangplank","garen","gnar",
